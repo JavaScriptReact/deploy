@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.chat-app {
+  width: 100vw;
+  height: 100vh;
+}
+
+.chat-icon {
+  height: 100px;
+  width: 100px;
+  box-shadow: 0 0 4px 2px black;
+  margin: 10px;
+}
+
+.chat-icon:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
